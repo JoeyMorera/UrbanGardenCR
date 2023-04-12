@@ -4,8 +4,6 @@ import {
   Icon,
   CloseIcon,
   SidebarMenu,
-  SidebarLink,
-  SidebarRoute,
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {

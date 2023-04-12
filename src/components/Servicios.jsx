@@ -10,13 +10,13 @@ const Servicios = () => {
         <div>
           <h2 className='text-center text-5xl font-bold px-10 pb-4 pt-10 text-white lg:text-right' id='servicios'>Nuestros <span className='text-[#f5be41]'>Servicios</span></h2>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 pt-20 pb-40 text-white px-10 lg:px-0'>
-          <div className='lg:flex lg:h-60'>
+        <div className='grid grid-cols-1 2xl:grid-cols-2 pt-20 pb-40 text-white px-10 2xl:px-0'>
+          <div className='2xl:flex 2xl:h-60'>
             <img src={servicios1} alt="Servicio1" className="rounded-3xl border-white border-8" />
             <div className='p-4 lg:p-10'>
               <div className='flex items-center '>
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-truck-delivery" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-truck-delivery" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <circle cx="7" cy="17" r="2" />
                     <circle cx="17" cy="17" r="2" />
@@ -30,12 +30,12 @@ const Servicios = () => {
             </div>
           </div>
 
-          <div className='lg:flex lg:h-60'>
+          <div className='2xl:flex 2xl:h-60'>
             <img src={servicios2} alt="Servicio2" className="rounded-3xl border-white border-8" />
             <div className='p-4 lg:p-10'>
               <div className='flex items-center'>
                 <div>
-                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-egg" width="28" height="28" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-egg" width="28" height="28" viewBox="0 0 24 24" strokeWidth="1.5" stroke="#ffffff" fill="none" strokeLinecap="round" strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <path d="M5.514 14.639c0 3.513 2.904 6.361 6.486 6.361s6.486 -2.848 6.486 -6.361a12.574 12.574 0 0 0 -3.243 -9.012a4.025 4.025 0 0 0 -3.243 -1.627a4.025 4.025 0 0 0 -3.243 1.627a12.574 12.574 0 0 0 -3.243 9.012" />
                   </svg>

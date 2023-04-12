@@ -14,7 +14,7 @@ const Productos = () => {
   return (
     <div className='pt-16 lg:pt-28  bg-[#f5f5f5] '>
       <div>
-        <h2 className='text-center text-5xl font-bold px-10 pb-4 pt-10 lg:px-60 lg:text-left' id='nosotros'>Nuestros <span className='text-[#c63c50]'>Productos</span></h2>
+        <h2 className='text-center text-5xl font-bold px-10 pb-4 pt-10 lg:px-60 lg:text-left' id='productos'>Nuestros <span className='text-[#c63c50]'>Productos</span></h2>
       </div>
       <div >
         <div className='grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-2 2xl:gap-10 py-20 2xl:py-40 p-2 2xl:p-20  '>
