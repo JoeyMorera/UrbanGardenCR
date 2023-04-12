@@ -1,4 +1,4 @@
-import nosotros from '../../src/assets/page/nosotros2.jpg'
+import nosotros from '../../src/assets/page/nosotros2.png'
 
 const Nosotros = () => {
   return (
