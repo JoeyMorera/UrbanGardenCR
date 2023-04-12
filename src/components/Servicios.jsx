@@ -1,3 +1,6 @@
+import servicios1 from '../../src/assets/Servicios/servicio1.png'
+import servicios2 from '../../src/assets/Servicios/servicio2.png'
+
 const Servicios = () => {
 
   return (
@@ -9,7 +12,7 @@ const Servicios = () => {
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 pt-20 pb-40 text-white px-10 lg:px-0'>
           <div className='lg:flex lg:h-60'>
-            <img src="../../src/assets/Servicios/servicio1.png" alt="Servicio1" className="rounded-3xl border-white border-8" />
+            <img src={servicios1} alt="Servicio1" className="rounded-3xl border-white border-8" />
             <div className='p-4 lg:p-10'>
               <div className='flex items-center '>
                 <div>
@@ -28,7 +31,7 @@ const Servicios = () => {
           </div>
 
           <div className='lg:flex lg:h-60'>
-            <img src="../../src/assets/Servicios/servicio2.png" alt="Servicio2" className="rounded-3xl border-white border-8" />
+            <img src={servicios2} alt="Servicio2" className="rounded-3xl border-white border-8" />
             <div className='p-4 lg:p-10'>
               <div className='flex items-center'>
                 <div>
