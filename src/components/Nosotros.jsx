@@ -1,4 +1,4 @@
-import React from 'react'
+import nosotros from '../../src/assets/page/nosotros2.jpg'
 
 const Nosotros = () => {
   return (
@@ -27,7 +27,7 @@ const Nosotros = () => {
           </div>
           <div className='p-10 flex justify-center xl:py-40
                           2xl:w-2/4 '>
-            <img src="../../src/assets/page/nosotros2.jpg" alt="nosotros" className='w-80 2xl:w-full' />
+            <img src={nosotros} alt="nosotros" className='w-80 2xl:w-full' />
           </div>
           
 

@@ -1,4 +1,13 @@
-import React from 'react'
+import producto1 from '../../src/assets/Productos/producto1.png'
+import producto2 from '../../src/assets/Productos/producto2.png'
+import producto3 from '../../src/assets/Productos/producto3.png'
+import producto4 from '../../src/assets/Productos/producto4.png'
+import producto5 from '../../src/assets/Productos/producto5.png'
+import producto6 from '../../src/assets/Productos/producto6.png'
+import producto7 from '../../src/assets/Productos/producto7.png'
+import producto8 from '../../src/assets/Productos/producto8.png'
+import producto9 from '../../src/assets/Productos/producto9.png'
+import producto10 from '../../src/assets/Productos/producto10.png'
 
 const Productos = () => {
 
@@ -11,51 +20,51 @@ const Productos = () => {
         <div className='grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-5 gap-2 2xl:gap-10 py-20 2xl:py-40 p-2 2xl:p-20  '>
 
           <div>
-            <img src="../../src/assets/Productos/producto1.png" alt="Pulpa de Cas"/>
+            <img src={producto1} alt="Pulpa de Cas"/>
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Pulpa de Cas</p>
           </div>
 
           <div >
-            <img src="../../src/assets/Productos/producto2.png" alt="Burbujas de Frutas"/>
+            <img src={producto2} alt="Burbujas de Frutas"/>
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm 2xl:text-xl'>Burbujas de Frutas</p>
           </div>
 
           <div >
-            <img src="../../src/assets/Productos/producto3.png" alt="Pulpa de Maracuya" />
+            <img src={producto3} alt="Pulpa de Maracuya" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Pulpa de Maracuya</p>
           </div>
 
           <div >
-            <img src="../../src/assets/Productos/producto4.png" alt="Burbujas de frutas" />
+            <img src={producto4} alt="Burbujas de frutas" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Picadillos </p>
           </div>
 
           <div >
-            <img src="../../src/assets/Productos/producto5.png" alt="Vegetales Mixtos" />
+            <img src={producto5} alt="Vegetales Mixtos" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Vegetales Mixtos</p>
           </div>
 
           <div>
-            <img src="../../src/assets/Productos/producto6.png" alt="Pulpa de Mango" />
+            <img src={producto6} alt="Pulpa de Mango" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Pulpa de Mango</p>
           </div>
 
           <div>
-            <img src="../../src/assets/Productos/producto7.png" alt="Pulpa de Mora" />
+            <img src={producto7} alt="Pulpa de Mora" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Pulpa de Mora</p>
           </div>
           <div>
-            <img src="../../src/assets/Productos/producto8.png" alt="Piña Pelada" />
+            <img src={producto8} alt="Piña Pelada" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm 2xl:text-xl'>Piña Pelada</p>
           </div>
 
           <div>
-            <img src="../../src/assets/Productos/producto9.png" alt="Ensaladas preparadas" />
+            <img src={producto9} alt="Ensaladas preparadas" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Ensaladas preparadas</p>
           </div>
           
           <div>
-            <img src="../../src/assets/Productos/producto10.png" alt="Burbuja Mini Urban" />
+            <img src={producto10} alt="Burbuja Mini Urban" />
             <p className='py-3 2xl:pt-4 2xl:pb-20 text-center text-sm  2xl:text-xl'>Burbuja Mini Urban</p>
           </div>
         </div>
