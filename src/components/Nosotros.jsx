@@ -7,8 +7,8 @@ const Nosotros = () => {
         <div>
           <h2 className='text-center text-5xl font-bold px-10 pb-4 pt-10 text-black lg:text-left' id='nosotros'>Sobre <span className='text-[#C63C50]'>Nosotros</span></h2>
         </div>
-        <div className='lg:flex'>
-          <div className='lg:w-3/4'>
+        <div className='2xl:flex'>
+          <div className='2xl:w-3/4'>
               <p className='text-sm lg:text-lg p-10'>
                 Somos un equipo comprometido en brindarte lo mejor en productos frescos y saludables directo a la puerta de tu casa u oficina. Nos especializamos en la entrega de frutas, verduras y huevos de alta calidad, pero también ofrecemos otros productos como picadillos empacados, pulpas y mucho más, todo para asegurarnos de cubrir todas tus necesidades y preferencias.
                 <br /><br />
@@ -25,10 +25,11 @@ const Nosotros = () => {
                 <b>Gracias por confiar en nosotros para tu alimentación saludable.</b>
               </p>
           </div>
-          <div className='p-10 lg:py-60 flex justify-center
-                          lg:w-1/4 '>
-            <img src="../../src/assets/page/nosotros.jpg" alt="nosotros" className=''/>
+          <div className='p-10 flex justify-center xl:py-40
+                          2xl:w-2/4 '>
+            <img src="../../src/assets/page/nosotros2.jpg" alt="nosotros" className='w-80 2xl:w-full' />
           </div>
+          
 
         </div>
       </div>
